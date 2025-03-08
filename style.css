@@ -1,0 +1,64 @@
+* {
+    font-family: Quicksand, sans-serif;
+}
+
+body {
+    background-color : rgb(24, 27, 38);
+}
+
+#elab {
+    margin: auto;
+    border-radius: 20px;
+    width:50%;
+    margin-top:10%;
+    background-color:rgb(44, 113, 76);
+    color: rgb(225, 248, 205);
+    display: flex;
+    justify-content: center; 
+    align-self: center;
+    padding: 10px;
+    border: 0.0925pc dotted rgb(225, 248, 205);
+    box-shadow: -0.15pc 0.5pc 5pc rgb(74, 69, 100);
+}
+
+#elab > div {
+    text-align: center;
+    width:70%;
+    height:50%;
+}
+
+.right_border {
+    border-right: 0.0625pc solid rgb(225, 248, 205);
+}
+
+#button {
+    border:none;
+    background-color:rgb(34, 105, 67);
+    color: rgb(225, 248, 205);
+    width:50%;
+    height:2pc;
+    border-radius: 20px;
+    border: 2px dotted rgb(225, 248, 205);
+    transition: all 0.1s ease-in-out;
+}
+
+#button:hover {
+    background-color:rgb(197, 228, 170);
+    color: rgb(34, 105, 67);
+}
+
+input {
+    border-radius: 4px;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    background-color: rgba(0, 105, 107, 0.4);
+    width:85%;
+}
+.wowie {
+    margin-top: -15px;
+
+
+}
+.wowie > input,label {
+    font-size:18px;
+}
