@@ -1,4 +1,15 @@
 let caratteri = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz+/";
+
+document.getElementById("info").addEventListener("click", function() {
+    let information = document.getElementById("info2");
+    console.log(information.style.display);
+    if (information.style.display == "none" || information.style.display == ""){
+        information.style.display = "block"; 
+    }    
+    else {
+        information.style.display = "none";
+    }
+})
 function convert(numero, base, again=false) {
     let x = " "
     let num = numero;

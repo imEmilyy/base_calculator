@@ -6,19 +6,46 @@ body {
     background-color : rgb(24, 27, 38);
 }
 
-#elab {
-    margin: auto;
+#elab, #info, #info2 {
     border-radius: 20px;
-    width:50%;
-    margin-top:10%;
     background-color:rgb(44, 113, 76);
     color: rgb(225, 248, 205);
+    box-shadow: -0.15pc 0.5pc 5pc rgb(74, 69, 100);
+}
+#info,#info2 {
+    width:3.5%;
+}
+#info {
+    height:5%;
+    margin-left:auto;
+}
+#info:hover {
+    cursor: pointer;
+}
+#info2 {
+    height:auto;
+    width:120%;
+    margin-left:-140%;
+    width:240%;
+    display:none;
+}
+#info2 > p {
+    text-align:center;
+    font-size:100%;
+    padding:10%;
+    padding-bottom:0%;
+}
+
+
+#elab {
+    margin: auto;
+    width:50%;
+    margin-top:10%;
     display: flex;
     justify-content: center; 
     align-self: center;
     padding: 10px;
     border: 0.0925pc dotted rgb(225, 248, 205);
-    box-shadow: -0.15pc 0.5pc 5pc rgb(74, 69, 100);
 }
 
 #elab > div {
